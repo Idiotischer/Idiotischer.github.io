@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>IdiotenClient</title>
+    <style>
+        sH1{
+          font-family: 'Orbitron', sans-serif;
+        }
+
+        body {
+            background-image: url('backgroundblurry.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            margin: 0; /* Remove default body margin */
+            overflow: hidden; /* Prevent scrollbars */
+        }
+
+        .download-button {
+           font-size: 12px;
+           color: #fff;
+           background-color: #272727;
+           border-color: blue;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%) scale(3.6);
+           margin: 5px;
+        }
+
+        .discord-button {
+            background-color: transparent;
+            border: none;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: translate(0, 0);
+            margin: 10px;
+        }
+
+        .discord-image {
+            max-width: 100px; /* Adjust the size as needed */
+        }
+    </style>
+</head>
+<body>
+<a href="https://drive.google.com/u/0/uc?id=15p4CKIUUGUDBDtzZdHXamuNQgPjs4tvd&export=download" download>
+    <button class="download-button">
+        <h8>
+            <sH1>Download</sH1>
+        </h8>
+    </button>
+</a>
+<a href="https://discord.gg/hCMk32Ty4A">
+    <button class="discord-button">
+        <img src="discord.png" alt="" class="discord-image"/>
+    </button>
+</a>
+</body>
+</html>
